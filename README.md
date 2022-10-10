@@ -14,10 +14,10 @@ You'll need to enter the text to encrypt as well as a password.
 ## Usage in CamundaRun
 
 Required dependencies in CamundaRun distro:
-1. Download jasypt-spring-boot-3.0.4.jar from https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot/3.0.4 
-2. download jasypt-1.9.3.jar from https://mvnrepository.com/artifact/org.jasypt/jasypt/1.93
+1. Download ```jasypt-spring-boot-3.0.4.jar``` from https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot/3.0.4 
+2. download ```jasypt-1.9.3.jar``` from https://mvnrepository.com/artifact/org.jasypt/jasypt/1.93
 
-3. place the camunda-run-jasypt-${version}.jar along with dependencies from 1. and 2. into 
+3. place the ```camunda-run-jasypt-${version}.jar``` along with dependencies from 1. and 2. into 
     ${camundaRunDir}/configuration/userLibs
 4. add the following properties to camundaRun default.yml (resp. production.yml):
 ```
